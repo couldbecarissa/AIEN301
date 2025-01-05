@@ -90,6 +90,6 @@ def AStarSearch(goal):
 
 
 if __name__ == '__main__':
-    visited_nodes, optimal_nodes = AStarSearch(goal="Bucharest")
+    visited_nodes, optimal_nodes = AStarSearch(goal="Vaslui")
     print('visited nodes: ' + str(visited_nodes))
     print('optimal nodes sequence: ' + str(optimal_nodes))
