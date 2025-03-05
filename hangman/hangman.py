@@ -1,6 +1,6 @@
 import random
 word_list=["Anoud","Adnan","Carissa","Bryan","James","Thembily"]
-chosen_word=random.choice(word_list)
+chosen_word=input("Gimme sum!")
 
 lives=6
 

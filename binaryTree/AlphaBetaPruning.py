@@ -141,6 +141,7 @@ def alpha_beta_pruning(depth, node_index, maximizing_player, values, alpha, beta
     
     else:
         best = MAX
+        
         for i in range(0, 2):
             val = alpha_beta_pruning(depth + 1, node_index * 2 + i,
                                    True, values, alpha, beta)
